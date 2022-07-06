@@ -1,5 +1,5 @@
 export default () => (
     <footer>
-        ©Takara sux
+        Takara sux ©2022
     </footer>
 )
