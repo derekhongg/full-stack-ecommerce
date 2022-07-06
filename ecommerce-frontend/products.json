@@ -1,0 +1,165 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Gon",
+                "content": "An overpowered 12 year old with daddy issues. ",
+                "meta_description": "An overpowered 12 year old",
+                "meta_title": "Gon - 12 Year Old",
+                "price": 99.99,
+                "slug": "gon",
+                "createdAt": "2022-07-05T22:10:59.955Z",
+                "updatedAt": "2022-07-05T22:11:02.275Z",
+                "publishedAt": "2022-07-05T22:11:02.272Z",
+                "image": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "Gon.jpg",
+                            "alternativeText": "Gon.jpg",
+                            "caption": "Gon.jpg",
+                            "width": 2880,
+                            "height": 1800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_Gon.jpg",
+                                    "hash": "thumbnail_Gon_0672d5d6fc",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 153,
+                                    "size": 60.98,
+                                    "url": "/uploads/thumbnail_Gon_0672d5d6fc.jpg"
+                                },
+                                "large": {
+                                    "name": "large_Gon.jpg",
+                                    "hash": "large_Gon_0672d5d6fc",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 625,
+                                    "size": 692.52,
+                                    "url": "/uploads/large_Gon_0672d5d6fc.jpg"
+                                },
+                                "medium": {
+                                    "name": "medium_Gon.jpg",
+                                    "hash": "medium_Gon_0672d5d6fc",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 469,
+                                    "size": 411.21,
+                                    "url": "/uploads/medium_Gon_0672d5d6fc.jpg"
+                                },
+                                "small": {
+                                    "name": "small_Gon.jpg",
+                                    "hash": "small_Gon_0672d5d6fc",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 313,
+                                    "size": 200.19,
+                                    "url": "/uploads/small_Gon_0672d5d6fc.jpg"
+                                }
+                            },
+                            "hash": "Gon_0672d5d6fc",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 926.6,
+                            "url": "/uploads/Gon_0672d5d6fc.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-07-05T22:09:36.685Z",
+                            "updatedAt": "2022-07-05T22:09:36.685Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "name": "Takara",
+                "content": "A 23 year old unemployed boy who didn't want to follow his major",
+                "meta_description": "A 23 year old unemployed boy",
+                "meta_title": "Takara",
+                "price": 42.99,
+                "slug": "takara",
+                "createdAt": "2022-07-05T22:13:50.028Z",
+                "updatedAt": "2022-07-05T22:13:51.015Z",
+                "publishedAt": "2022-07-05T22:13:51.012Z",
+                "image": {
+                    "data": {
+                        "id": 2,
+                        "attributes": {
+                            "name": "takara.jpeg",
+                            "alternativeText": "takara.jpeg",
+                            "caption": "takara.jpeg",
+                            "width": 959,
+                            "height": 960,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_takara.jpeg",
+                                    "hash": "thumbnail_takara_3067a1b855",
+                                    "ext": ".jpeg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 155,
+                                    "height": 156,
+                                    "size": 8.7,
+                                    "url": "/uploads/thumbnail_takara_3067a1b855.jpeg"
+                                },
+                                "medium": {
+                                    "name": "medium_takara.jpeg",
+                                    "hash": "medium_takara_3067a1b855",
+                                    "ext": ".jpeg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 749,
+                                    "height": 750,
+                                    "size": 101.76,
+                                    "url": "/uploads/medium_takara_3067a1b855.jpeg"
+                                },
+                                "small": {
+                                    "name": "small_takara.jpeg",
+                                    "hash": "small_takara_3067a1b855",
+                                    "ext": ".jpeg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 499,
+                                    "height": 500,
+                                    "size": 55.52,
+                                    "url": "/uploads/small_takara_3067a1b855.jpeg"
+                                }
+                            },
+                            "hash": "takara_3067a1b855",
+                            "ext": ".jpeg",
+                            "mime": "image/jpeg",
+                            "size": 114.58,
+                            "url": "/uploads/takara_3067a1b855.jpeg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-07-05T22:12:26.429Z",
+                            "updatedAt": "2022-07-05T22:12:26.429Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}
