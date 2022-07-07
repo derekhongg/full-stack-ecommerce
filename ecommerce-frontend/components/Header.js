@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import AuthContext from '../context/AuthContext'
 import styles from '../styles/Header.module.css'
-
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 export default () => {
@@ -38,7 +38,7 @@ export default () => {
             <div className={styles.auth}>
                 {user ? (
                     <Link href='/account'>
-                        <a>{user.email}</a>
+                        <a className='auth-img'><AccountCircleIcon alt={user.email}/></a>
                     </Link>
                 ) : (
                     <Link href="/login">

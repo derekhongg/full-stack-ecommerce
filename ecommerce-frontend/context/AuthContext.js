@@ -35,9 +35,35 @@ export const AuthProvider = (props) => {
         
     }
 
+    const checkUserLoggedIn = async () => {
+        try {
+            const isLoggedIn = await magic.user.isLoggedIn()
+
+            if(isLoggedIn) {
+                const { email } = await magic.user.getMetadata()
+                setUser({ email })
+                const token = await getToken();
+                console.log("Token: ", token)
+            }
+        } catch(err) {
+
+        }
+    }
+
+    const getToken = async () => {
+        try{
+            const token = await magic.user.getIdToken()
+            return token
+        } catch(err) {
+
+        }
+    }
+
     useEffect(() => {
         magic = new Magic(MAGIC_PUBLIC_KEY)
-    })
+        checkUserLoggedIn()
+    }, [])
+
     return (
         <AuthContext.Provider value={{ user, loginUser, logoutUser }}>
             {props.children}

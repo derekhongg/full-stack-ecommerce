@@ -26,6 +26,7 @@ export default function Account() {
             </Head>
 
             <h2>Account Page</h2>
+            <p>Logged in as: {user.email}</p>
             <a href="#" onClick={logoutUser}>Logout</a>
         </div>
     )
